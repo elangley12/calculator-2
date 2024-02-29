@@ -24,10 +24,6 @@ while True:
     else: 
         num2 = tokens[2]
     
-    if len(tokens) > 3: 
-        num3 = tokens[3]
-
-    result = None
 
     if not num1.isdigit() or not num2.isdigit(): 
         print("Those aren't numbers!")
